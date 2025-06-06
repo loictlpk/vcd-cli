@@ -1,4 +1,4 @@
-# VCD Automation Scripts
+# VCD Automation Script
 
 Ce dépôt contient des scripts shell pour automatiser certaines opérations sur une infrastructure VCD (VMware Cloud Director).
 
