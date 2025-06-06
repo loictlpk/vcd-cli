@@ -12,3 +12,10 @@ Avant toute utilisation, il est nécessaire d’installer les dépendances requi
 
 ```bash
 ./install.sh
+```
+
+## Utilisation
+```bash
+./vcd.sh login
+./vcd reboot <script_path>
+```
