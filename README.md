@@ -5,8 +5,6 @@ Ce dépôt contient des scripts shell pour automatiser certaines opérations sur
 ## Prérequis
 
 - Bash (Linux/macOS)
-- `curl`, `jq`, et autres dépendances installées via `install.sh`
-- Accès réseau à l'instance VCD cible
 
 ## Installation
 
