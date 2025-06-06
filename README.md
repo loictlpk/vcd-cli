@@ -2,7 +2,7 @@
 
 Ce dépôt contient des scripts shell pour automatiser certaines opérations sur une infrastructure VCD (VMware Cloud Director).
 
-## Prérequis
+## Prerequisites
 
 - Bash (Linux/macOS)
 - data folder contains .csv files
@@ -17,14 +17,13 @@ tenant="mybusiness"
 
 ## Installation
 
-Avant toute utilisation, il est nécessaire d’installer les dépendances requises :
-
 ```bash
 chmod +x *.sh
 ./install.sh
 ```
 
-## Utilisation
+## Use
+
 ```bash
 ./vcd.sh login
 ./vcd reboot <csv_path>
