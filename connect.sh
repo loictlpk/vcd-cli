@@ -16,7 +16,7 @@ if [[ $# -gt 1 ]]; then
     ~/vcd-cli-venv/bin/vcd login "$server" $tenant $username -i -w -d $token 2> /dev/null ||
     echo -e "${RED} Erreur: ${WHITE}username ou token invalide"
 elif [[ $# -lt 1 ]]; then
-    echo -e "${GREEN} Utilisation: ${WHITE}./vcd_connect.sh <username> [<token_session>] \n"
+    echo -e "${GREEN} Utilisation: ${WHITE}./vcd.sh <username> [<token_session>] \n"
 else
     ~/vcd-cli-venv/bin/vcd login "$server" $tenant "$username" -i -w 2> /dev/null 
 fi
