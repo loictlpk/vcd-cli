@@ -27,5 +27,5 @@ chmod +x *.sh
 ## Utilisation
 ```bash
 ./vcd.sh login
-./vcd reboot <script_path>
+./vcd reboot <csv_path>
 ```
