@@ -6,10 +6,14 @@ Ce dépôt contient des scripts shell pour automatiser certaines opérations sur
 
 - Bash (Linux/macOS)
 - data folder contains .csv files
+```bash
     my vapp,myvm
+```
 - vars folder contains host.var & colors.var
+```bash
     server="vcd.server.test"
     tenant="mybusiness"
+```
 
 ## Installation
 
