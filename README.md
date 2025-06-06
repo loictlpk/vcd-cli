@@ -11,6 +11,7 @@ Ce dépôt contient des scripts shell pour automatiser certaines opérations sur
 Avant toute utilisation, il est nécessaire d’installer les dépendances requises :
 
 ```bash
+chmod +x *.sh
 ./install.sh
 ```
 
